@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social</title>
+    <link rel="stylesheet" href="accets/css/style.css">
+    <link rel="stylesheet" href="accets/fontawesome-free-6.4.0-web/css/all.css">
+    <script src="https://kit.fontawesome.com/d7968a225d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <nav>
+        <div class="nav-left">
+            <img src="accets/images/logo.png" class="logo">
+            <div class="search-box">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Search">
+            </div>
+        </div>
+        <div class="nav-right">
+            <ul>
+                <li><i class="fa-solid fa-bell"></i></li>
+                <li><i class="fa-solid fa-comment"></i></li>
+                <li><i class="fa-brands fa-youtube"></i></li>
+            </ul>
+            <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+                <img src="accets/images/profile.jpg">
+            </div>
+        </div>
+<!-----settings-menu--------->
+        <div class="settings-menu">
+
+            <div id="dark-btn">
+                <span></span>
+            </div>
+
+            <div class="settings-menu-inner">
+                <div class="user-profile">
+                    <img src="accets/images/profile.jpg">
+                    <div>
+                        <p>Akatsuki</p>
+                        <a href="#">See your profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="accets/images/feedback.png">
+                    <div>
+                        <p>Give Feedback</p>
+                        <a href="#">Help us to improve the new design</a>  
+                    </div>
+                </div>
+                <hr>
+                <div class="settings-links">
+                    <img src="accets/images/setting.png" class="settings-icon">
+                    <a href="#">Setting & Privacy <i class="fa-solid fa-chevron-right"></i></a>
+                </div>
+                <hr>
+                <div class="settings-links">
+                    <img src="accets/images/help.png" class="settings-icon">
+                    <a href="#">Help & Support <i class="fa-solid fa-chevron-right"></i></a>
+                </div>
+                <hr>
+                <div class="settings-links">
+                    <img src="accets/images/display.png" class="settings-icon">
+                    <a href="#">Display & Accessibility  <i class="fa-solid fa-chevron-right"></i></a>
+                </div>
+                <hr>
+                <div class="settings-links">
+                    <img src="accets/images/logout.png" class="settings-icon">
+                    <a href="#">Logout <i class="fa-solid fa-chevron-right"></i></a>
+                </div>
+                <hr>
+            </div>
+
+        </div>
+    </nav>
+
+    <div class="container">
+        <!-----left-sidebar--------->
+        <div class="left-sidebar box-scroll">
+            <div class="imp-link">
+                <a href="#"><i class="fa-solid fa-newspaper"></i>Lastest New</a>
+                <a href="#"><i class="fa-solid fa-user-group"></i>Friends</a>
+                <a href="#"><i class="fa-solid fa-users-line"></i>Group</a>
+                <a href="#"><i class="fa-solid fa-store"></i>Marketplace</a>
+                <a href="#"><i class="fa-brands fa-youtube"></i>Watch</a>
+                <a href="#"><i class="fa-solid fa-chevron-down"></i>See more</a>
+            </div>
+            <div class="shortcut-link">
+                <p>Your Shortcut</p>
+                <a href="#"><img src="accets/images/Uzumaki.png">Uzumaki</a>
+                <a href="#"><img src="accets/images/uchiha.png" >Uchiha</a>
+                <a href="#"><img src="accets/images/nara.png">Nara</a>
+                <a href="#"><img src="accets/images/hyuga.png">Hyuga</a>
+            </div>
+        </div>
+        <!-----main-content--------->
+        <div class="main-content">
+
+            <div class="story-gallery">
+                <div class="story story1">
+                    <img src="accets/images/circle-plus.png">
+                    <p>Post story</p>
+                </div>
+                <div class="story story2">
+                    <img src="accets/images/naruto.png">
+                    <p>Naruto </p>
+                </div>
+                <div class="story story3">
+                    <img src="accets/images/nara.png">
+                    <p>Nara</p>
+                </div>
+                <div class="story story4">
+                    <img src="accets/images/itachi.jpg">
+                    <p>Itachi</p>
+                </div>
+                <div class="story story5">
+                    <img src="accets/images/sasuke.png">
+                    <p>Sasuke</p>
+                </div>
+            </div>
+
+            <div class="write-post-container">
+                <div class="user-profile">
+                    <img src="accets/images/profile.jpg">
+                    <div>
+                        <p>Akatsuki</p>
+                        <small>Public <i class="fa-solid fa-caret-down"></i></small>
+
+                    </div>
+                </div>
+
+                <div class="post-input-container">
+                    <textarea rows="3" placeholder="Mày đang nghĩ cái gì thế, Akatsuki?"></textarea>
+
+                    <div class="add-post-links">
+                        <a href="#"><i class="fa-solid fa-video"></i> Live Video</a>
+                        <a href="#"><i class="fa-solid fa-image"></i> Photo/Video</a>
+                        <a href="#"><i class="fa-regular fa-face-laugh"></i> Feeling/Activity</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="accets/images/profile.jpg">
+                        <div>
+                            <p>Akatsuki</p>
+                            <span>June 21 2023, 00:45 am</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                </div>
+                
+                <p class="post-text">Thế giới này sẽ biết đến nỗi đau. 
+                    <span>@Konoha</span>
+                    <a href="#">#ShinraTensei</a>
+                </p>
+                <img src="accets/images/shinratensei.jpg" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div>
+                            <i class="fa-solid fa-thumbs-up"></i> 120
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-comment"></i> 100
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-share"></i></i> 20
+                        </div>
+                    </div>
+                    <div class="post-profile-icons">
+                        <img src="accets/images/profile.jpg"> <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="accets/images/naruto.png">
+                        <div>
+                            <p>Naruto</p>
+                            <span>May 19 2023, 10:00 am</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                </div>
+                
+                <p class="post-text">Hành trình của ninja. 
+                    <span>@Sasuke</span>
+                    <a href="#">#deptraicogisai</a>
+                </p>
+                <img src="accets/images/naruto-content.jpg" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div>
+                            <i class="fa-solid fa-thumbs-up"></i> 19
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-comment"></i> 8
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-share"></i></i> 2
+                        </div>
+                    </div>
+                    <div class="post-profile-icons">
+                        <img src="accets/images/naruto.png"> <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="accets/images/itachi.jpg">
+                        <div>
+                            <p>Itachi</p>
+                            <span>May 25 2023, 11:00 am</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                </div>
+                
+                <p class="post-text">Hãy căm thù ta đi. 
+                    <span>@Sasuke</span>
+                    <a href="#">#khonggiadinh</a>
+                </p>
+                <img src="accets/images/itachi-content.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div>
+                            <i class="fa-solid fa-thumbs-up"></i> 300
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-comment"></i> 290
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-share"></i></i> 1
+                        </div>
+                    </div>
+                    <div class="post-profile-icons">
+                        <img src="accets/images/naruto.png"> <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <button type="button" class="load-more-btn">Load More</button>
+        </div>
+        <!-----right-sidebar--------->
+        <div class="right-sidebar box-scroll">
+            <div class="sidebar-title">
+                <h4>Events</h4>
+                <a href="#">See all</a>         
+            </div>
+
+            <div class="event">
+                <div class="left-event">
+                    <h3>18</h3>
+                    <span>March</span>
+                </div>
+                <div class="right-event">
+                    <h4>Itachi Kills His Family</h4>
+                    <p><i class="fa-solid fa-location-dot"></i> Uchiha's house</p>
+                    <a href="#">More Info</a>
+                </div>
+            </div>
+            <div class="event">
+                <div class="left-event">
+                    <h3>20</h3>
+                    <span>April</span>
+                </div>
+                <div class="right-event">
+                    <h4>Naruto's parent becames donuts</h4>
+                    <p><i class="fa-solid fa-location-dot"></i> Konoha</p>
+                    <a href="#">More Info</a>
+                </div>
+            </div>
+            <div class="sidebar-title">
+                <h4>Advertisement</h4>
+                <a href="#">Close</a>
+            </div>
+            <img src="accets/images/advertisement.png" class="sidebar-ads">
+            <div class="sidebar-title">
+                <h4>Conversation</h4>
+                <a href="#">Hide chat</a>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="accets/images/naruto.png">
+                </div>
+                <p>Naruto</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="accets/images/itachi.jpg">
+                </div>
+                <p>Itachi</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="accets/images/sasuke.png">
+                </div>
+                <p>Sasuke</p>
+            </div>
+        </div>
+    </div>
+    <script src="accets/js/script.js"></script>
+</body>
+</html>
